@@ -1,3 +1,8 @@
+class Pessoa:
+    def _init_ (self,nome,idade):
+        self.nome = nome 
+        self.idade = idade
+
 class Aluno(Pessoa):
     def _init_ (self,nome,idade,matricula):
         super()._init_(nome,idade)
