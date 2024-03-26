@@ -1,3 +1,14 @@
+class Aluno(Pessoa):
+    def _init_ (self,nome,idade,matricula):
+        super()._init_(nome,idade)
+        self.matricula = matricula
+
+    def info (self):
+        print ('Informações do aluno')
+        print ('Nome: ',self.nome)
+        print ('Idade: ',self.idade)
+        print ('Matrícula: ',self.matricula)
+
 class Professor(Pessoa):
     def _init_ (self,nome,idade,disciplina):
         super()._init_(nome,idade)
