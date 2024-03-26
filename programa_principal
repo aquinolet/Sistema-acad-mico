@@ -1,0 +1,13 @@
+import sistema_academico
+
+aluno1 = sistema_academico.Aluno ('Gabriel',13,'010')
+aluno2 = sistema_academico.Aluno ('Kaline',12,'011')
+prof1 = sistema_academico.Professor ('Rogério',35,'Português')
+prof2 = sistema_academico.Professor ('Patrícia',32,'Inglês')
+fun1 = sistema_academico.Func_administrativo ('Camille',27,'Secretária')
+
+aluno1.info()
+aluno2.info()
+prof1.info()
+prof2.info()
+fun1.info()
