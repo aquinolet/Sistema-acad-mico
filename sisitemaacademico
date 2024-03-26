@@ -1,0 +1,10 @@
+class Professor(Pessoa):
+    def _init_ (self,nome,idade,disciplina):
+        super()._init_(nome,idade)
+        self.disciplina = disciplina
+
+    def info (self):
+        print ('Informações do Professor')
+        print ('Nome: ',self.nome)
+        print ('Idade: ',self.idade)
+        print ('Disciplina: ',self.disciplina
