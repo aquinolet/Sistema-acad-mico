@@ -24,4 +24,14 @@ class Professor(Pessoa): #Feito por Mariana
         print ('Nome: ',self.nome)
         print ('Idade: ',self.idade)
         print ('Disciplina: ',self.disciplina
-#Feito por Wil
+
+class Func_administrativo(Pessoa): #Feito por Wil
+    def _init_ (self,nome,idade,cargo):
+        super()._init_(nome,idade)
+        self.cargo = cargo
+
+    def info (self):
+        print ('Informações do Funcionário administrativo')
+        print ('Nome: ',self.nome)
+        print ('Idade: ',self.idade)
+        print ('Cargo: ',self.cargo)
