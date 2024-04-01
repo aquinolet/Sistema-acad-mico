@@ -1,4 +1,4 @@
-import sistema_academico
+import sistema_academico #Feito por Letícia
 
 aluno1 = sistema_academico.Aluno ('Gabriel',13,'010')
 aluno2 = sistema_academico.Aluno ('Kaline',12,'011')
