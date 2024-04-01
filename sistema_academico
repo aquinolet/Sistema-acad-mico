@@ -1,9 +1,9 @@
-class Pessoa:
+class Pessoa: #Feito por Maiza
     def _init_ (self,nome,idade):
         self.nome = nome 
         self.idade = idade
 
-class Aluno(Pessoa):
+class Aluno(Pessoa): #Feito por Júlia
     def _init_ (self,nome,idade,matricula):
         super()._init_(nome,idade)
         self.matricula = matricula
@@ -14,7 +14,7 @@ class Aluno(Pessoa):
         print ('Idade: ',self.idade)
         print ('Matrícula: ',self.matricula)
 
-class Professor(Pessoa):
+class Professor(Pessoa): #Feito por Mariana
     def _init_ (self,nome,idade,disciplina):
         super()._init_(nome,idade)
         self.disciplina = disciplina
@@ -24,3 +24,4 @@ class Professor(Pessoa):
         print ('Nome: ',self.nome)
         print ('Idade: ',self.idade)
         print ('Disciplina: ',self.disciplina
+#Feito por Wil
