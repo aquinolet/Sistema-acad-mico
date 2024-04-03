@@ -1,4 +1,7 @@
-import sistema_academico #Feito por Letícia
+from sistema_academico import Pessoa #Feito por Letícia
+from sistema_academico import Aluno
+from sistema_academico import Professor
+from sistema_academico import Func_administrativo
 
 aluno1 = sistema_academico.Aluno ('Gabriel',13,'010')
 aluno2 = sistema_academico.Aluno ('Kaline',12,'011')
